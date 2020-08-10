@@ -6,3 +6,9 @@ window.addEventListener('scroll',function(){
     console.log(offset)
     
 })
+const hamburger=document.querySelector('.hamburger');
+const navlinks=document.querySelector('.nav-links')
+hamburger.addEventListener('click',()=>{
+    console.log("wow");
+    navlinks.classList.toggle('open');
+})
